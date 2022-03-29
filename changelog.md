@@ -224,3 +224,9 @@
 * Decrease revenge aggression based on the guards' relation to you
 * Added guard target list to config
 * Added aborting children by unconventional means
+
+# 7.3.0?
+
+* Added destiny
+  * You are asked to customize the player
+  * Then you can choose from a set of spawn location to start your journey
