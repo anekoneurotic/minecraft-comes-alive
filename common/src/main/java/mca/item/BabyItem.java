@@ -218,8 +218,7 @@ public class BabyItem extends Item {
         // combine genes
         child.getGenetics().combine(
                 mother.map(VillagerLike::toVillager).map(VillagerLike::getGenetics),
-                father.map(VillagerLike::toVillager).map(VillagerLike::getGenetics),
-                state.getSeed()
+                father.map(VillagerLike::toVillager).map(VillagerLike::getGenetics)
         );
 
         // inherit traits
