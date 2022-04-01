@@ -140,6 +140,7 @@ public class Genetics implements Iterable<Genetics.Gene> {
         }
     }
 
+    @Deprecated
     public void combine(Optional<Genetics> mother, Optional<Genetics> father, long seed) {
         Random old = random;
         random = new Random(seed);
